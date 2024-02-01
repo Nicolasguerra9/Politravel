@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="15sp">
+
+    <ImageView
+        android:id="@+id/imagenCarta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/desierto"
+        android:elevation="1sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="15sp"
+        android:text="€"
+        android:textSize="25sp"
+        android:elevation="3sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47sp"
+        android:layout_marginTop="15sp"
+        android:text="750.00"
+        android:textSize="25sp"
+        android:elevation="3sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135sp"
+        android:layout_marginTop="15sp"
+        android:text="/P"
+        android:textSize="25sp"
+        android:elevation="3sp"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="180dp"
+        android:gravity="start"
+        android:text="Barcelona"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:elevation="3sp"
+        android:alpha="1"
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="17sp"
+        android:layout_marginTop="237sp"
+        android:src="@drawable/maps"
+        android:elevation="4sp"/>
+
+    <TextView
+        android:id="@+id/pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="237sp"
+        android:text="Spain"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:elevation="4sp" />
+
+
+
+
+</androidx.cardview.widget.CardView>

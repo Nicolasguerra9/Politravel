@@ -1,0 +1,27 @@
+Ahora sí!
+
+
+
+
+ Pantalla LISTA 
+
+
+- El botón se pedía que fuera un FAB (Floating Action BUtton) 
+
+
+
+
+
+Pantallas ALTA / MODIFICAR
+
+- Faltan muchos datos: listado de puntos del recorrido, pantalla para seleccionar la imagen, coordenadas. El transporte es un campo de texto? Quizás debería ser un depslegable o similar, con opciones cerradas.
+
+
+
+
+Vamos, que te has dejado la parte donde está la chicha del diseño, que es gestionar el itinerario!
+
+
+
+
+Las apps móviles no suelen tener botones "back" porque se usa la navegación del sistema. Cuando los hay, se integran en la barra superior de la app, no en un botón gigante.

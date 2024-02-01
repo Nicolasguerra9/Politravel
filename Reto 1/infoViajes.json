@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "nombre": "Egipcio",
+        "pais": "Egipcio",
+        "img":"egipcio.png",
+        "lugaresInteresantes": [
+            "Valle de los Reyes",
+            "Templo de luxor",
+            "The egyptian Museum"
+        ],
+        "puntuacion": 4.2,
+        "precio": "600.99",
+        "descripcion": "Un viaje a París es una oportunidad para explorar la ciudad del amor, la luz y el arte. La Torre Eiffel, el Museo del Louvre y la Catedral de Notre-Dame son algunos de los lugares más emblemáticos de la ciudad. Disfruta de la comida y el vino francés y pasea por los barrios históricos de Montmartre y Le Marais.",
+        "duracion": 3,
+        "transporte": "avión",
+        "inicioTourNombre": "Aeropuerto Internacional Charles de Gaulle",
+        "finTourNombre": "Palacio de Versalles",
+        "inicioTourCoordenadas": [
+            49.0097,
+            2.5479
+        ],
+        "finTourCoordenadas": [
+            48.8047,
+            2.1204
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Cancún",
+        "pais": "México",
+        "img":"cancun.png",
+        "lugaresInteresantes": [
+            "Playa Delfines",
+            "Zona Arqueológica El Rey",
+            "Museo Maya de Cancún"
+        ],
+        "puntuacion": 4.6,
+        "precio": "900.99",
+        "descripcion": "Cancún es el destino perfecto para aquellos que buscan sol, playa y cultura. Visita las hermosas playas de Cancún, como Playa Delfines, y explora la Zona Arqueológica El Rey y el Museo Maya de Cancún para aprender sobre la historia de la región. La comida mexicana es deliciosa y picante, y la vida nocturna es vibrante y emocionante.",
+        "duracion": 5,
+        "transporte": "avión",
+        "inicioTourNombre": "Aeropuerto Internacional de Cancún",
+        "finTourNombre": "Isla Mujeres",
+        "inicioTourCoordenadas": [
+            21.0421,
+            -86.8730
+        ],
+        "finTourCoordenadas": [
+            21.2336,
+            -86.7310
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Ámsterdam",
+        "pais": "Países Bajos",
+        "img":"amsterdam.png",
+        "lugaresInteresantes": [
+            "Museo Van Gogh",
+            "Barrio Rojo",
+            "Canal de los Príncipes"
+        ],
+        "puntuacion": 4.2,
+        "precio": "500.99",
+        "descripcion": "Descubre la hermosa ciudad de Ámsterdam, hogar del famoso Museo Van Gogh, el Barrio Rojo y el Canal de los Príncipes. Recorre la ciudad en bicicleta y disfruta de la vida cultural y nocturna de la ciudad. Además, puedes visitar el famoso Mercado de las Flores y probar las deliciosas galletas y queso holandés.",
+        "duracion": 3,
+        "transporte": "avión",
+        "inicioTourNombre": "Aeropuerto de Ámsterdam Schiphol",
+        "finTourNombre": "Museo Van Gogh",
+        "inicioTourCoordenadas": [
+            52.30805556,
+            4.76416667
+        ],
+        "finTourCoordenadas": [
+            52.3584,
+            4.8816
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Tokio",
+        "pais": "Japón",
+        "img":"tokio.png",
+        "lugaresInteresantes": [
+            "El Palacio Imperial de Tokio",
+            "El Templo Sensō-ji",
+            "El Barrio de Shinjuku"
+        ],
+        "puntuacion": 4.8,
+        "precio": "800.99",
+        "descripcion": "Un viaje a Tokio te sumergirá en una cultura fascinante y en una de las ciudades más vibrantes del mundo. Visita el majestuoso Palacio Imperial de Tokio, el histórico Templo Sensō-ji, y explora el moderno y animado barrio de Shinjuku. La comida japonesa es deliciosa y variada, y la tecnología en Tokio es sorprendente.",
+        "duracion": 5,
+        "transporte": "avión",
+        "inicioTourNombre": "Aeropuerto Internacional de Narita",
+        "finTourNombre": "Barrio de Shinjuku",
+        "inicioTourCoordenadas": [
+            35.7719,
+            140.3925
+        ],
+        "finTourCoordenadas": [
+            35.6938,
+            139.7036
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Río de Janeiro",
+        "pais": "Brasil",
+        "img":"riodejaneiro.png",
+        "lugaresInteresantes": [
+            "Cristo Redentor",
+            "Playa de Copacabana",
+            "Pão de Açúcar"
+        ],
+        "puntuacion": 4.2,
+        "precio": "640.99",
+        "descripcion": "Ven a disfrutar de la belleza natural y cultural de Río de Janeiro, una ciudad vibrante que lo tiene todo. Desde las impresionantes vistas del Cristo Redentor hasta la icónica playa de Copacabana, pasando por la montaña del Pão de Açúcar y sus paisajes espectaculares. La música, la comida y la cultura brasileña te harán sentir como en casa.",
+        "duracion": 5,
+        "transporte": "avión",
+        "inicioTourNombre": "Aeropuerto Internacional de Galeão",
+        "finTourNombre": "Playa de Ipanema",
+        "inicioTourCoordenadas": [
+            -22.811891,
+            -43.248190
+        ],
+        "finTourCoordenadas": [
+            -22.984853,
+            -43.202844
+        ]
+    }
+]

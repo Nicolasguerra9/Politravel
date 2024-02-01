@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Encabezado de la pantalla -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Modificar nuevo paquete"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <!-- Formulario para añadir nuevo paquete -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titulo"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Campo para introducir el nombre del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre del paquete" />
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir el país del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="País del paquete" />
+
+            <EditText
+                android:id="@+id/pais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir la imagen del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imagen del paquete" />
+
+            <GridView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="350sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="30sp"
+                android:numColumns="2" />
+
+            <!-- Campo para introducir los lugares interesantes del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lugares interesantes del paquete [separalos con ,]" />
+
+            <EditText
+                android:id="@+id/lugaresInteresantes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir la puntuación del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puntuación del paquete" />
+
+            <RatingBar
+                android:id="@+id/puntuacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.1" />
+
+            <!-- Campo para introducir el precio del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio del paquete" />
+
+            <EditText
+                android:id="@+id/precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir la descripción del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción del paquete" />
+
+            <EditText
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="5" />
+
+            <!-- Campo para introducir la duración del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duración del paquete (en días)" />
+
+            <EditText
+                android:id="@+id/duracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+            <!-- Campo para introducir el transporte del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transporte del paquete" />
+
+            <Spinner
+                android:id="@+id/transporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir el nombre de inicio del tour del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de inicio del tour del paquete" />
+
+            <EditText
+                android:id="@+id/inicioTourNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir el nombre de fin del tour del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de fin del tour del paquete" />
+
+            <EditText
+                android:id="@+id/finTourNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir las coordenadas de inicio del tour del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coordenadas de inicio del tour del paquete [x,y]" />
+
+            <EditText
+                android:id="@+id/inicioTourCoordenadasX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/inicioTourCoordenadasY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Campo para introducir las coordenadas de fin del tour del paquete -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coordenadas de fin del tour del paquete [x,y]" />
+
+            <EditText
+                android:id="@+id/finTourCoordenadasX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/finTourCoordenadasY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Botón para añadir el paquete -->
+            <Button
+                android:id="@+id/botonGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:textColor="@color/white"
+                android:background="#2271b3"/>/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
